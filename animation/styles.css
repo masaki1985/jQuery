@@ -1,0 +1,26 @@
+.container {
+    height: 30px
+}
+#div1 {
+    background: pink;
+    display: none;
+}
+#div2 {
+    background: yellow;
+    display: block;
+}
+#div3 {
+    background: pink;
+    display: none;
+}
+#div4 {
+    background: yellow;
+    display: block;
+}
+#div5 {
+    background: pink;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 50px;
+}
