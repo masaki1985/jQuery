@@ -1,0 +1,19 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+table tr th, td {
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    vertical-align: middle;
+    text-align: center;
+}
+table tr th {
+    font-weight: bold;
+}
+table tr:nth-child(odd) td {
+    background: #f2f2f2;
+}
